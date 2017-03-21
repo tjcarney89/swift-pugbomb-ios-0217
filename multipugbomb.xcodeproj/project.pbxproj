@@ -12,20 +12,15 @@
 		8FE03CA41E81B7F600E99C4B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FE03CA21E81B7F600E99C4B /* Main.storyboard */; };
 		8FE03CA61E81B7F600E99C4B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8FE03CA51E81B7F600E99C4B /* Assets.xcassets */; };
 		8FE03CA91E81B7F600E99C4B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FE03CA71E81B7F600E99C4B /* LaunchScreen.storyboard */; };
-		8FE03CB41E81B7F600E99C4B /* multipugbombTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FE03CB31E81B7F600E99C4B /* multipugbombTests.swift */; };
+		8FE03CBF1E81B93C00E99C4B /* PugViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FE03CBE1E81B93C00E99C4B /* PugViewCell.swift */; };
+		8FE03CC11E81C46900E99C4B /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FE03CC01E81C46900E99C4B /* Extensions.swift */; };
+		DA626B068FAEF294B5C8BAA8 /* Pods_multipugbomb.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEC6AB5B04AEF6F7FA61A78D /* Pods_multipugbomb.framework */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		8FE03CB01E81B7F600E99C4B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 8FE03C931E81B7F600E99C4B /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 8FE03C9A1E81B7F600E99C4B;
-			remoteInfo = multipugbomb;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
+		03F9C574B77864EBB0AB0C09 /* Pods-multipugbomb.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-multipugbomb.debug.xcconfig"; path = "Pods/Target Support Files/Pods-multipugbomb/Pods-multipugbomb.debug.xcconfig"; sourceTree = "<group>"; };
+		1622A4DAA61E087550486959 /* Pods-multipugbomb.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-multipugbomb.release.xcconfig"; path = "Pods/Target Support Files/Pods-multipugbomb/Pods-multipugbomb.release.xcconfig"; sourceTree = "<group>"; };
+		3C469845BF18D4F1A034DDE4 /* Pods-multipugbombTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-multipugbombTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-multipugbombTests/Pods-multipugbombTests.release.xcconfig"; sourceTree = "<group>"; };
 		8FE03C9B1E81B7F600E99C4B /* multipugbomb.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = multipugbomb.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FE03C9E1E81B7F600E99C4B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8FE03CA01E81B7F600E99C4B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -33,9 +28,11 @@
 		8FE03CA51E81B7F600E99C4B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8FE03CA81E81B7F600E99C4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8FE03CAA1E81B7F600E99C4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8FE03CAF1E81B7F600E99C4B /* multipugbombTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = multipugbombTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		8FE03CB31E81B7F600E99C4B /* multipugbombTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = multipugbombTests.swift; sourceTree = "<group>"; };
-		8FE03CB51E81B7F600E99C4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8FE03CBE1E81B93C00E99C4B /* PugViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PugViewCell.swift; sourceTree = "<group>"; };
+		8FE03CC01E81C46900E99C4B /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		D55C639D7D3E99B294425A33 /* Pods-multipugbombTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-multipugbombTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-multipugbombTests/Pods-multipugbombTests.debug.xcconfig"; sourceTree = "<group>"; };
+		DEC6AB5B04AEF6F7FA61A78D /* Pods_multipugbomb.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_multipugbomb.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAD1385552A39ED30CC1973E /* Pods_multipugbombTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_multipugbombTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,25 +40,40 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8FE03CAC1E81B7F600E99C4B /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				DA626B068FAEF294B5C8BAA8 /* Pods_multipugbomb.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		31F20528E9EC4766FED76437 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				03F9C574B77864EBB0AB0C09 /* Pods-multipugbomb.debug.xcconfig */,
+				1622A4DAA61E087550486959 /* Pods-multipugbomb.release.xcconfig */,
+				D55C639D7D3E99B294425A33 /* Pods-multipugbombTests.debug.xcconfig */,
+				3C469845BF18D4F1A034DDE4 /* Pods-multipugbombTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6643B1B3F49B6DC7993FA5B6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DEC6AB5B04AEF6F7FA61A78D /* Pods_multipugbomb.framework */,
+				EAD1385552A39ED30CC1973E /* Pods_multipugbombTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		8FE03C921E81B7F600E99C4B = {
 			isa = PBXGroup;
 			children = (
 				8FE03C9D1E81B7F600E99C4B /* multipugbomb */,
-				8FE03CB21E81B7F600E99C4B /* multipugbombTests */,
 				8FE03C9C1E81B7F600E99C4B /* Products */,
+				31F20528E9EC4766FED76437 /* Pods */,
+				6643B1B3F49B6DC7993FA5B6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -69,7 +81,6 @@
 			isa = PBXGroup;
 			children = (
 				8FE03C9B1E81B7F600E99C4B /* multipugbomb.app */,
-				8FE03CAF1E81B7F600E99C4B /* multipugbombTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -79,21 +90,14 @@
 			children = (
 				8FE03C9E1E81B7F600E99C4B /* AppDelegate.swift */,
 				8FE03CA01E81B7F600E99C4B /* ViewController.swift */,
+				8FE03CC01E81C46900E99C4B /* Extensions.swift */,
+				8FE03CBE1E81B93C00E99C4B /* PugViewCell.swift */,
 				8FE03CA21E81B7F600E99C4B /* Main.storyboard */,
 				8FE03CA51E81B7F600E99C4B /* Assets.xcassets */,
 				8FE03CA71E81B7F600E99C4B /* LaunchScreen.storyboard */,
 				8FE03CAA1E81B7F600E99C4B /* Info.plist */,
 			);
 			path = multipugbomb;
-			sourceTree = "<group>";
-		};
-		8FE03CB21E81B7F600E99C4B /* multipugbombTests */ = {
-			isa = PBXGroup;
-			children = (
-				8FE03CB31E81B7F600E99C4B /* multipugbombTests.swift */,
-				8FE03CB51E81B7F600E99C4B /* Info.plist */,
-			);
-			path = multipugbombTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -103,9 +107,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8FE03CB81E81B7F600E99C4B /* Build configuration list for PBXNativeTarget "multipugbomb" */;
 			buildPhases = (
+				A8E84EC6A22C0F57DC5C89D6 /* [CP] Check Pods Manifest.lock */,
 				8FE03C971E81B7F600E99C4B /* Sources */,
 				8FE03C981E81B7F600E99C4B /* Frameworks */,
 				8FE03C991E81B7F600E99C4B /* Resources */,
+				1DC3A779DDA130732B9F68F8 /* [CP] Embed Pods Frameworks */,
+				108F916B7023CE755469EEEE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -115,24 +122,6 @@
 			productName = multipugbomb;
 			productReference = 8FE03C9B1E81B7F600E99C4B /* multipugbomb.app */;
 			productType = "com.apple.product-type.application";
-		};
-		8FE03CAE1E81B7F600E99C4B /* multipugbombTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 8FE03CBB1E81B7F600E99C4B /* Build configuration list for PBXNativeTarget "multipugbombTests" */;
-			buildPhases = (
-				8FE03CAB1E81B7F600E99C4B /* Sources */,
-				8FE03CAC1E81B7F600E99C4B /* Frameworks */,
-				8FE03CAD1E81B7F600E99C4B /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				8FE03CB11E81B7F600E99C4B /* PBXTargetDependency */,
-			);
-			name = multipugbombTests;
-			productName = multipugbombTests;
-			productReference = 8FE03CAF1E81B7F600E99C4B /* multipugbombTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -148,12 +137,6 @@
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = WNAGBXF4G9;
 						ProvisioningStyle = Automatic;
-					};
-					8FE03CAE1E81B7F600E99C4B = {
-						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = WNAGBXF4G9;
-						ProvisioningStyle = Automatic;
-						TestTargetID = 8FE03C9A1E81B7F600E99C4B;
 					};
 				};
 			};
@@ -171,7 +154,6 @@
 			projectRoot = "";
 			targets = (
 				8FE03C9A1E81B7F600E99C4B /* multipugbomb */,
-				8FE03CAE1E81B7F600E99C4B /* multipugbombTests */,
 			);
 		};
 /* End PBXProject section */
@@ -187,14 +169,55 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8FE03CAD1E81B7F600E99C4B /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		108F916B7023CE755469EEEE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
 			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-multipugbomb/Pods-multipugbomb-resources.sh\"\n";
+			showEnvVarsInLog = 0;
 		};
-/* End PBXResourcesBuildPhase section */
+		1DC3A779DDA130732B9F68F8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-multipugbomb/Pods-multipugbomb-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A8E84EC6A22C0F57DC5C89D6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8FE03C971E81B7F600E99C4B /* Sources */ = {
@@ -203,26 +226,12 @@
 			files = (
 				8FE03CA11E81B7F600E99C4B /* ViewController.swift in Sources */,
 				8FE03C9F1E81B7F600E99C4B /* AppDelegate.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8FE03CAB1E81B7F600E99C4B /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8FE03CB41E81B7F600E99C4B /* multipugbombTests.swift in Sources */,
+				8FE03CBF1E81B93C00E99C4B /* PugViewCell.swift in Sources */,
+				8FE03CC11E81C46900E99C4B /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		8FE03CB11E81B7F600E99C4B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 8FE03C9A1E81B7F600E99C4B /* multipugbomb */;
-			targetProxy = 8FE03CB01E81B7F600E99C4B /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		8FE03CA21E81B7F600E99C4B /* Main.storyboard */ = {
@@ -337,6 +346,7 @@
 		};
 		8FE03CB91E81B7F600E99C4B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03F9C574B77864EBB0AB0C09 /* Pods-multipugbomb.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = WNAGBXF4G9;
@@ -350,6 +360,7 @@
 		};
 		8FE03CBA1E81B7F600E99C4B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1622A4DAA61E087550486959 /* Pods-multipugbomb.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = WNAGBXF4G9;
@@ -358,36 +369,6 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.johannkerr.multipugbomb;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-			};
-			name = Release;
-		};
-		8FE03CBC1E81B7F600E99C4B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				DEVELOPMENT_TEAM = WNAGBXF4G9;
-				INFOPLIST_FILE = multipugbombTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.johannkerr.multipugbombTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/multipugbomb.app/multipugbomb";
-			};
-			name = Debug;
-		};
-		8FE03CBD1E81B7F600E99C4B /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				DEVELOPMENT_TEAM = WNAGBXF4G9;
-				INFOPLIST_FILE = multipugbombTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.johannkerr.multipugbombTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/multipugbomb.app/multipugbomb";
 			};
 			name = Release;
 		};
@@ -410,14 +391,7 @@
 				8FE03CBA1E81B7F600E99C4B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		8FE03CBB1E81B7F600E99C4B /* Build configuration list for PBXNativeTarget "multipugbombTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				8FE03CBC1E81B7F600E99C4B /* Debug */,
-				8FE03CBD1E81B7F600E99C4B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
