@@ -14,9 +14,11 @@ final class PugDataStore {
     private init () {}
     
     var pugs: [Pug] = []
+    var validPugs: [Pug] = []
     
     func createPug(completion: @escaping (Pug?) -> Void) {
         PugAPIClient.getPug { (pugDict) in
+            
             let newPug = Pug(dictionary: pugDict)
             self.pugs.append(newPug)
             completion(newPug)
@@ -24,4 +26,11 @@ final class PugDataStore {
         
     }
     
+    func createValidPugs() {
+        for pug in pugs {
+            if pug.image != nil {
+                validPugs.append(pug)
+            }
+        }
+    }
 }

@@ -40,7 +40,7 @@ class PugAPIClient{
             let session = URLSession.shared
             let request = URLRequest(url: url)
             let dataTask = session.dataTask(with: request) { (data, response, error) in
-                guard let rawData = data, let image = UIImage(data: rawData) else { completion(UIImage(named: "Sad Face")); return }
+                guard let rawData = data, let image = UIImage(data: rawData) else { completion(nil); return }
                 completion(image)
             }
             dataTask.resume()

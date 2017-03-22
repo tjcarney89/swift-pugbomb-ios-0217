@@ -10,6 +10,8 @@ import Foundation
 import UIKit
 
 class Pug {
+    
+    let store = PugDataStore.sharedInstance
     var imageURL: String
     var image: UIImage?
     
@@ -20,6 +22,10 @@ class Pug {
     func downloadImage(completion: @escaping () -> Void) {
         PugAPIClient.downloadImage(at: imageURL, completion: { image in
             self.image = image
+            if self.image != nil {
+                self.store.validPugs.append(self)
+            } else {
+            }
             completion()
         })
         
