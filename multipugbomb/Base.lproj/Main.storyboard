@@ -6,6 +6,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -13,7 +14,7 @@
         <scene sceneID="BjC-j8-K3D">
             <objects>
                 <collectionViewController id="3fs-oL-CRa" customClass="ViewController" customModule="multipugbomb" customModuleProvider="target" sceneMemberID="viewController">
-                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" dataMode="prototypes" id="b9o-f3-FI1">
+                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="b9o-f3-FI1">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -30,7 +31,21 @@
                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                                     <rect key="frame" x="0.0" y="0.0" width="375" height="325"/>
                                     <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="8VO-lh-AFy">
+                                            <rect key="frame" x="8" y="8" width="359" height="309"/>
+                                        </imageView>
+                                    </subviews>
                                 </view>
+                                <constraints>
+                                    <constraint firstAttribute="trailingMargin" secondItem="8VO-lh-AFy" secondAttribute="trailing" id="7Ay-RX-HQA"/>
+                                    <constraint firstItem="8VO-lh-AFy" firstAttribute="leading" secondItem="7gU-0N-rS5" secondAttribute="leadingMargin" id="WPI-Lj-oHe"/>
+                                    <constraint firstAttribute="bottomMargin" secondItem="8VO-lh-AFy" secondAttribute="bottom" id="hdk-eQ-7ZS"/>
+                                    <constraint firstItem="8VO-lh-AFy" firstAttribute="top" secondItem="7gU-0N-rS5" secondAttribute="topMargin" id="zQ9-a8-g6c"/>
+                                </constraints>
+                                <connections>
+                                    <outlet property="pugImageView" destination="8VO-lh-AFy" id="m2t-t1-epX"/>
+                                </connections>
                             </collectionViewCell>
                         </cells>
                         <connections>

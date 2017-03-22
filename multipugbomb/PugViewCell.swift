@@ -10,5 +10,21 @@ import UIKit
 
 class PugViewCell: UICollectionViewCell {
     
+    @IBOutlet weak var pugImageView: UIImageView!
+    
+    //var image: UIImage? {
+    //        if let image = pugImageView.image {
+     //           return image
+      //      } else {
+       //         return nil
+     //       }
+    //}
+    
+    
+    
+    
+    
+    
+   
    
 }
